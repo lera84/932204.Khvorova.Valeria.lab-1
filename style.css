@@ -1,0 +1,103 @@
+body{
+    color:white;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin-left: 5%;
+}
+p{
+    margin:0 ;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+#header{
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+#content{
+margin-left: 35%;
+margin-right: 35%;    
+height: 650px;
+width: 30%;
+background-color: blue;
+}
+#footer{
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+.content__image{
+    width: 5rem;
+    height: 5rem;
+    border: 0.3rem solid white;
+    float: left;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+
+ }
+  a:link[href="www.csd.tsu.ru"]{
+    color: red;
+ }
+span{
+    color:red;
+}
+
+.list {
+    margin-left: 7%;
+    
+  }
+.list__item {
+    text-transform: capitalize;
+  }
+  .list__item:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .list__item > span {
+    letter-spacing: 0.3rem;
+    color: rgb(0, 221, 246);
+  }
+  .list__item--italic {
+    font-style: italic;
+  }
+  .list__item--bold {
+    font-weight: bold;
+  }
+  .list__item--underline {
+    text-decoration: underline;
+  }
+  .list__item--dashed {
+    text-decoration: line-through;
+    transform: translateY(50%);
+  }
+  .list--2 {
+    list-style: none;
+    margin: 0;
+  }
+  .floated-left {
+    float: left;
+  }
+  
+  .floated-right {
+    float: right;
+  }
+  
+    
+    
+ 
+  
